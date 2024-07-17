@@ -1,0 +1,755 @@
+:root {
+    --font:"josefin sans; sans-serif;"
+    --cmn-clr:#FF6F61;
+"
+}
+ ul {
+  list-style-type: none;
+ 
+  
+ }
+ li {
+    text-decoration: none;
+ }
+
+ a {
+  text-decoration: none;
+ } 
+
+  *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+
+   h1,h2,h3,h4,h5,h6,p,ul,ol,span{
+    margin: 0;
+    padding: 0;
+ }
+
+
+
+ .aytorDots button{
+  width: 11px;
+  height: 6px;
+  border-radius: 5px;
+  background-color: white;
+  color: transparent;
+  border: none;
+  margin-right: 6px;
+}
+
+ .aytorDots .slick-active button{
+  width:29px ;
+  background-color: #FF6F61;
+}
+
+
+
+
+
+  .primary-btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 14px 23px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .primary-btn:hover{
+    background-color: #FF6F61;
+    color: white;
+    padding: 14px 23px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 167%;
+    text-align: center;
+    display: inline-block;
+  }
+
+
+ /* =======NAV START========== */
+ #navbarNavDropdown  a:hover{   
+       color: #FF6F61;
+ }
+
+ .collapse ul li a:hover{
+   color: #FF6F61; 
+   
+ }
+ nav .icons li{
+    padding: 0 10px !important;
+   
+ }
+ nav .icons li a{
+    color: rgb(19, 16, 16);
+    
+ }
+ nav .count-bar{
+   position: relative;
+ }
+ nav .count-bar .count{
+   background-color: #FF6F61;
+   color: white;
+   width: 15px;
+   height: 17px;
+   display: inline-block;
+   text-align: center;
+   line-height: 15px;
+   border-radius: 50%;
+   font-size: 14px;
+   position: absolute;
+   top: -2;
+   right: 0;
+
+ }
+  .search-box{
+    height: 100vh;
+    width: 100vw;
+    background-color: #11161E;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  } 
+    .search-box.active_search{
+      opacity: 1;
+      visibility: visible;
+    }
+
+
+
+  .search-box input{
+    border: none;
+    outline: none;
+    width: 500px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #FF6F61;
+    color: rgb(16, 16, 16);
+
+  }
+
+::placeholder{
+  color:  rgb(252, 249, 249);
+}
+
+  .search-box .test{
+    position: relative;
+
+  }
+
+  .search-box button {   
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 30px;
+    background-color: transparent;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(252, 249, 249);
+  }
+  .search-box .cross-btn{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #FF6F61;
+    color:rgb(252, 249, 249);
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    transition: 0.5s;
+  }
+  .search-box .cross-btn:hover{
+    background-color:#FF6F61 ;
+    transform: rotate(360deg);
+    cursor: pointer;
+  }
+ 
+ /* =======NAV END========== */
+
+ /*--------========BANNER-ITEM=========-----------*/
+  #banner{
+    position: relative;
+  } 
+
+  #banner .slide{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #banner .banner-cnt h4{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;    
+  } 
+
+
+  #banner .bannercnt h3{   
+    font-family: Josefin Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    text-align: left;
+    margin: 14px 0 16px 0; 
+  } 
+
+
+  #banner .bannercnt p{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+  } 
+
+
+#banner .bannercnt a{
+  width: 196.36px;
+  height: 56px;
+  top: 561px;
+  } 
+
+  #banner .bannercnt {
+  margin: 241px 0 0 0 ;
+  }
+
+  #banner .primary-btn{
+    margin: 30px 0 0 0;
+    padding: 13px 37px;
+  }
+
+  #banner .aytorDots{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+
+/*--------========BANNER-ITEM-END=========-----------*/
+
+/*-------========ARRIVAL==========------------*/
+#arrival{
+  padding: 0;
+}
+
+#arrival .heading h3{
+  font-family: Josefin Sans;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 46px;
+  text-align: center;
+  color:#080809;
+  padding: 10px;
+}
+#arrival .sub-arrival{
+  position: relative;
+  
+}
+
+
+#arrival .sub-arrival .arrival-img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+
+
+#arrival  .sub-arrival .arrival-img img:first-child{
+  position: absolute;
+ width: 100%;
+ transform: scale(1);
+ transition: 0.5s;
+}
+
+#arrival .sub-arrival:hover .arrival-img img:first-child {
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+#arrival .sub-arrival:hover .arrival-img img{
+  width: 100%;
+}
+
+
+#arrival .sub-arrival .arrival-img img {
+  width: 100%;
+}
+
+#arrival .arrival-contains{
+  user-select:text ;
+}
+
+#arrival .arrival-contains .price{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%; 
+  padding-top: 25px ;
+  display: inline-block;
+   
+}
+
+#arrival .arrival-contains .star{
+  color: #FF6F61;
+  padding-bottom: 26px;
+}
+
+#arrival .arrival-contains h4{
+ font-size:14px ;
+ font-weight: 600;
+ line-height: 152%;
+ color:  #11161E;
+
+} 
+
+#arrival .discount{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 26px;
+  height: 52px;
+  transform: rotate(-180deg);
+  background-color: #FF6F61;
+  border-top-right-radius:15px;
+  border-top-left-radius: 15px;
+}
+
+#arrival .discount span{
+  color: white;
+  font-size: 16px;
+  transform: rotate(90deg)  translateX(55%) translateY(10%);
+  display: inline-block;
+}
+
+#arrival  .sub-arrival .icon{
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  
+}
+
+#arrival  .sub-arrival .icon li a {
+
+  width: 30px;
+  height: 30px;
+  background-color: #FF6F61;
+  display: inline-block;
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  border-radius: 50%;
+  transition:0.3s;
+  opacity: 0;
+}
+
+#arrival .sub-arrival .icon li a:hover{
+  background-color:white;
+  color:#FF6F61;
+}
+
+#arrival .sub-arrival:hover .icon li a {
+  opacity: 1;
+  transform: translateX(20px);
+
+ 
+}
+
+
+
+#arrival  .sub-arrival .icon li:nth-child(1) a{
+  transition-delay: 0.1s;
+ 
+}
+
+#arrival  .sub-arrival .icon li:nth-child(2) a{
+  transition-delay: 0.2s;
+ 
+}
+
+#arrival  .sub-arrival .icon li:nth-child(3) a{
+  transition-delay: 0.3s;
+
+}
+
+#arrival  .sub-arrival .icon li:nth-child(4) {
+  transition-delay: 0.4s;
+  
+}
+
+/*-------========ARRIVAL-END==========------------*/
+
+/*--------=======WORK-CARD======------------*/
+#work-card .product {
+  position:relative ;
+  
+} 
+.product-card{
+margin: 90px 0 90px 0;
+
+} 
+#work-card .product .overlay{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  inset: 20px 20px;
+ flex-direction: column;
+  padding: 20px;
+  background-color: #50505140; 
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  transform-origin: inherit;
+  transform: scale(0) rotate(30deg);
+}
+
+#work-card .product:hover .overlay{
+  transform-origin: right bottom;
+  transform: scale(1) rotate(0deg);
+}
+
+#work-card .product .overlay h4{
+  color: white;
+  padding-bottom: 20px;
+  font-family: Josefin Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
+text-align: center;
+}
+/*--------=======WORK-CARD-END======------------*/
+
+/*-------========BANNER-ITEM-2==========-------*/
+#banner-2 {
+  padding: 100px;
+}
+
+#banner-2 .img{
+  height: 524px;
+  background-size: cover;
+  background-position: center;
+} 
+
+#banner-2 .bannercnt {
+ margin: 100px 0 90px 1px;
+}  
+
+
+#banner-2 .bannercnt h3{   
+font-family: Josefin Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 46px;
+text-align: left;
+color: white;
+/* margin: 95px 0 18px 0; */
+} 
+
+
+#banner-2 .bannercnt p{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+  
+} 
+
+#banner-2 .primary-btn{
+  margin: 30px 0 0 0;
+  padding: 13px 37px;
+}
+
+/*-------========BANNER-ITEM-2==========-------*/
+  
+
+/*-----------------========BEST-SELLER-PRODUCT========------------------*/
+#BEST-SALLER{
+  padding: 0;
+}
+
+#BEST-SALLER .heading h3{
+  font-family: Josefin Sans;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 46px;
+  text-align: center;
+  color:#080809;
+  padding: 10px;
+}
+#BEST-SALLER .sub-seller{
+  position: relative;
+  
+}
+
+
+#BEST-SALLER .sub-seller .seller-img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+
+
+
+#BEST-SALLER .sub-seller .seller-img img:first-child{
+  position: absolute;
+ width: 100%;
+ transform: scale(1);
+ transition: 0.5s;
+}
+
+#BEST-SALLER .sub-seller:hover .seller-img img:first-child {
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+#BEST-SALLER .sub-seller:hover .seller-img img{
+  width: 100%;
+}
+
+
+#BEST-SALLER .sub-seller .seller-img img {
+  width: 100%;
+}
+
+#BEST-SALLER .seller-contains{
+  user-select:text ;
+}
+
+#BEST-SALLER .seller-contains .price{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%; 
+  padding-top: 25px ;
+  display: inline-block;
+   
+}
+
+#BEST-SALLER .seller-contains .star{
+  color: #FF6F61;
+  padding-bottom: 26px;
+}
+
+#BEST-SALLER .seller-contains h4{
+ font-size:14px ;
+ font-weight: 600;
+ line-height: 152%;
+ color:  #11161E;
+
+} 
+
+#BEST-SALLER .discount{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 26px;
+  height: 52px;
+  transform: rotate(-180deg);
+  background-color: #FF6F61;
+  border-top-right-radius:15px;
+  border-top-left-radius: 15px;
+}
+
+#BEST-SALLER .discount span{
+  color: white;
+  font-size: 16px;
+  transform: rotate(90deg)  translateX(55%) translateY(10%);
+  display: inline-block;
+}
+
+#BEST-SALLER  .sub-seller .icon{
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  
+}
+
+#BEST-SALLER .sub-seller .icon li a {
+
+  width: 30px;
+  height: 30px;
+  background-color: #FF6F61;
+  display: inline-block;
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  border-radius: 50%;
+  transition:0.3s;
+  opacity: 0;
+}
+
+#BEST-SALLER .sub-seller .icon li a:hover{
+  background-color:white;
+  color:#FF6F61;
+}
+
+#BEST-SALLER .sub-seller:hover .icon li a {
+  opacity: 1;
+  transform: translateX(20px);
+
+ 
+}
+
+
+
+#BEST-SALLER  .sub-seller .icon li:nth-child(1) a{
+  transition-delay: 0.1s;
+ 
+}
+
+#BEST-SALLER .sub-seller .icon li:nth-child(2) a{
+  transition-delay: 0.2s;
+ 
+}
+
+#BEST-SALLER  .sub-seller .icon li:nth-child(3) a{
+  transition-delay: 0.3s;
+
+}
+
+#BEST-SALLER  .sub-seller .icon li:nth-child(4) {
+  transition-delay: 0.4s;
+  
+}
+
+
+
+#BEST-SALLER  .see-all-product{
+
+font-family: Josefin Sans;
+line-height: 28px;
+font-weight: 600;
+font-size: 18px;
+/* text-align: center; */
+background-color: #FF6F61;
+left: 840px;
+width: 200px;
+height: 56px;
+top: 4005px;
+left: 840px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+#BEST-SALLER  .see-all-product a{
+  display:block;
+  color: white;
+  align-items: center;
+  padding: 14px 23px;
+
+}
+
+/*-----------------========BEST-SELLER-PRODUCT========------------------*/
+  
+/*-----------------============Deals-Days ==============-----------------*/
+#Deals-Days .heading h3{
+
+  font-family: Josefin Sans;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 46px;
+  text-align: center;
+  color:#080809;
+  padding: 10px;
+
+}
+
+
+
+
+#Deals-Days{
+  position: relative;
+} 
+
+#Deals-Days .bannerslider-2{
+  /* height: 570px; */
+  /* width: 485px; */
+  margin: 20px 20px 20px 20px !important;
+}
+
+  
+
+
+
+
+#Deals-Days .banner-cnt h4{
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;    
+} 
+
+
+#Deals-Days .bannercnt h3{   
+  font-family: Josefin Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74px;
+  text-align: left;
+  margin: 14px 0 16px 0; 
+} 
+
+
+#Deals-Days .bannercnt p{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+} 
+
+
+#Deals-Days .bannercnt a{
+width: 196.36px;
+height: 56px;
+top: 561px;
+} 
+
+#Deals-Days .bannercnt {
+margin: 0 0 0 0 ;
+}
+
+#Deals-Days .primary-btn{
+  margin: 30px 0 0 0;
+  padding: 13px 37px;
+}
+
+#Deals-Days .aytorDots{
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+/*-----------------============Deals-Days ==============-----------------*/
